@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>topbanner</title>
+</head>
+
+<body>
+    <div className="TopBanner">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur<br />
+            adipisicing elit. Reiciendis vero in et.
+            <a href="">more</a>
+        </p>
+    </div>
+    <button>닫기</button>
+    <script>
+        document.querySelector('button').addEventListener('click', function () {
+            document.querySelector('.TopBanner').classList.toggle('on')
+        })
+    </script>
+</body>
+
+</html>
